@@ -22,3 +22,16 @@ cd ComfyUI-AudioX
 pip install -r requirements.txt
 ```
 
+
+## Model
+
+### Pretrained Checkpoints
+
+Download the pretrained model from 🤗 [AudioX on Hugging Face](https://huggingface.co/HKUSTAudio/AudioX):
+
+```bash
+mkdir -p model
+wget https://huggingface.co/HKUSTAudio/AudioX/resolve/main/model.ckpt -O model/model.ckpt
+wget https://huggingface.co/HKUSTAudio/AudioX/resolve/main/config.json -O model/config.json
+```
+
