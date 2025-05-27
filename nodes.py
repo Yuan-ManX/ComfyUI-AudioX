@@ -56,7 +56,7 @@ class LoadAudioXVideo:
         return (video_tensor.unsqueeze(0),)
 
 
-class Prompt:
+class AudioXPrompt:
     @classmethod
     def INPUT_TYPES(s):
         return {
